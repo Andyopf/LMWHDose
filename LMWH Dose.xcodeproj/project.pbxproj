@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62BEB4BB2019A3AA005A0A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEB4BA2019A3AA005A0A4D /* AppDelegate.swift */; };
+		62BEB4BD2019A3AA005A0A4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEB4BC2019A3AA005A0A4D /* ViewController.swift */; };
+		62BEB4C02019A3AA005A0A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BEB4BE2019A3AA005A0A4D /* Main.storyboard */; };
+		62BEB4C22019A3AA005A0A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BEB4C12019A3AA005A0A4D /* Assets.xcassets */; };
+		62BEB4C52019A3AA005A0A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BEB4C32019A3AA005A0A4D /* LaunchScreen.storyboard */; };
+		62BEB4D02019A3AA005A0A4D /* LMWH_DoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEB4CF2019A3AA005A0A4D /* LMWH_DoseTests.swift */; };
+		62BEB4DB2019A3AA005A0A4D /* LMWH_DoseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BEB4DA2019A3AA005A0A4D /* LMWH_DoseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62BEB4CC2019A3AA005A0A4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62BEB4AF2019A3AA005A0A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BEB4B62019A3AA005A0A4D;
+			remoteInfo = "LMWH Dose";
+		};
+		62BEB4D72019A3AA005A0A4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62BEB4AF2019A3AA005A0A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BEB4B62019A3AA005A0A4D;
+			remoteInfo = "LMWH Dose";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62BEB4B72019A3AA005A0A4D /* LMWH Dose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LMWH Dose.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BEB4BA2019A3AA005A0A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62BEB4BC2019A3AA005A0A4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62BEB4BF2019A3AA005A0A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62BEB4C12019A3AA005A0A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62BEB4C42019A3AA005A0A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62BEB4C62019A3AA005A0A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BEB4CB2019A3AA005A0A4D /* LMWH DoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LMWH DoseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BEB4CF2019A3AA005A0A4D /* LMWH_DoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMWH_DoseTests.swift; sourceTree = "<group>"; };
+		62BEB4D12019A3AA005A0A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62BEB4D62019A3AA005A0A4D /* LMWH DoseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LMWH DoseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BEB4DA2019A3AA005A0A4D /* LMWH_DoseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMWH_DoseUITests.swift; sourceTree = "<group>"; };
+		62BEB4DC2019A3AB005A0A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62BEB4B42019A3AA005A0A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BEB4C82019A3AA005A0A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BEB4D32019A3AA005A0A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62BEB4AE2019A3AA005A0A4D = {
+			isa = PBXGroup;
+			children = (
+				62BEB4B92019A3AA005A0A4D /* LMWH Dose */,
+				62BEB4CE2019A3AA005A0A4D /* LMWH DoseTests */,
+				62BEB4D92019A3AA005A0A4D /* LMWH DoseUITests */,
+				62BEB4B82019A3AA005A0A4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62BEB4B82019A3AA005A0A4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62BEB4B72019A3AA005A0A4D /* LMWH Dose.app */,
+				62BEB4CB2019A3AA005A0A4D /* LMWH DoseTests.xctest */,
+				62BEB4D62019A3AA005A0A4D /* LMWH DoseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62BEB4B92019A3AA005A0A4D /* LMWH Dose */ = {
+			isa = PBXGroup;
+			children = (
+				62BEB4BA2019A3AA005A0A4D /* AppDelegate.swift */,
+				62BEB4BC2019A3AA005A0A4D /* ViewController.swift */,
+				62BEB4BE2019A3AA005A0A4D /* Main.storyboard */,
+				62BEB4C12019A3AA005A0A4D /* Assets.xcassets */,
+				62BEB4C32019A3AA005A0A4D /* LaunchScreen.storyboard */,
+				62BEB4C62019A3AA005A0A4D /* Info.plist */,
+			);
+			path = "LMWH Dose";
+			sourceTree = "<group>";
+		};
+		62BEB4CE2019A3AA005A0A4D /* LMWH DoseTests */ = {
+			isa = PBXGroup;
+			children = (
+				62BEB4CF2019A3AA005A0A4D /* LMWH_DoseTests.swift */,
+				62BEB4D12019A3AA005A0A4D /* Info.plist */,
+			);
+			path = "LMWH DoseTests";
+			sourceTree = "<group>";
+		};
+		62BEB4D92019A3AA005A0A4D /* LMWH DoseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62BEB4DA2019A3AA005A0A4D /* LMWH_DoseUITests.swift */,
+				62BEB4DC2019A3AB005A0A4D /* Info.plist */,
+			);
+			path = "LMWH DoseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62BEB4B62019A3AA005A0A4D /* LMWH Dose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BEB4DF2019A3AB005A0A4D /* Build configuration list for PBXNativeTarget "LMWH Dose" */;
+			buildPhases = (
+				62BEB4B32019A3AA005A0A4D /* Sources */,
+				62BEB4B42019A3AA005A0A4D /* Frameworks */,
+				62BEB4B52019A3AA005A0A4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LMWH Dose";
+			productName = "LMWH Dose";
+			productReference = 62BEB4B72019A3AA005A0A4D /* LMWH Dose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62BEB4CA2019A3AA005A0A4D /* LMWH DoseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BEB4E22019A3AB005A0A4D /* Build configuration list for PBXNativeTarget "LMWH DoseTests" */;
+			buildPhases = (
+				62BEB4C72019A3AA005A0A4D /* Sources */,
+				62BEB4C82019A3AA005A0A4D /* Frameworks */,
+				62BEB4C92019A3AA005A0A4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BEB4CD2019A3AA005A0A4D /* PBXTargetDependency */,
+			);
+			name = "LMWH DoseTests";
+			productName = "LMWH DoseTests";
+			productReference = 62BEB4CB2019A3AA005A0A4D /* LMWH DoseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62BEB4D52019A3AA005A0A4D /* LMWH DoseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BEB4E52019A3AB005A0A4D /* Build configuration list for PBXNativeTarget "LMWH DoseUITests" */;
+			buildPhases = (
+				62BEB4D22019A3AA005A0A4D /* Sources */,
+				62BEB4D32019A3AA005A0A4D /* Frameworks */,
+				62BEB4D42019A3AA005A0A4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BEB4D82019A3AA005A0A4D /* PBXTargetDependency */,
+			);
+			name = "LMWH DoseUITests";
+			productName = "LMWH DoseUITests";
+			productReference = 62BEB4D62019A3AA005A0A4D /* LMWH DoseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62BEB4AF2019A3AA005A0A4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Anan Lappikulthong";
+				TargetAttributes = {
+					62BEB4B62019A3AA005A0A4D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					62BEB4CA2019A3AA005A0A4D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62BEB4B62019A3AA005A0A4D;
+					};
+					62BEB4D52019A3AA005A0A4D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62BEB4B62019A3AA005A0A4D;
+					};
+				};
+			};
+			buildConfigurationList = 62BEB4B22019A3AA005A0A4D /* Build configuration list for PBXProject "LMWH Dose" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62BEB4AE2019A3AA005A0A4D;
+			productRefGroup = 62BEB4B82019A3AA005A0A4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62BEB4B62019A3AA005A0A4D /* LMWH Dose */,
+				62BEB4CA2019A3AA005A0A4D /* LMWH DoseTests */,
+				62BEB4D52019A3AA005A0A4D /* LMWH DoseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62BEB4B52019A3AA005A0A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BEB4C52019A3AA005A0A4D /* LaunchScreen.storyboard in Resources */,
+				62BEB4C22019A3AA005A0A4D /* Assets.xcassets in Resources */,
+				62BEB4C02019A3AA005A0A4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BEB4C92019A3AA005A0A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BEB4D42019A3AA005A0A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62BEB4B32019A3AA005A0A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BEB4BD2019A3AA005A0A4D /* ViewController.swift in Sources */,
+				62BEB4BB2019A3AA005A0A4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BEB4C72019A3AA005A0A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BEB4D02019A3AA005A0A4D /* LMWH_DoseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BEB4D22019A3AA005A0A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BEB4DB2019A3AA005A0A4D /* LMWH_DoseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62BEB4CD2019A3AA005A0A4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62BEB4B62019A3AA005A0A4D /* LMWH Dose */;
+			targetProxy = 62BEB4CC2019A3AA005A0A4D /* PBXContainerItemProxy */;
+		};
+		62BEB4D82019A3AA005A0A4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62BEB4B62019A3AA005A0A4D /* LMWH Dose */;
+			targetProxy = 62BEB4D72019A3AA005A0A4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62BEB4BE2019A3AA005A0A4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62BEB4BF2019A3AA005A0A4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62BEB4C32019A3AA005A0A4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62BEB4C42019A3AA005A0A4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62BEB4DD2019A3AB005A0A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62BEB4DE2019A3AB005A0A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62BEB4E02019A3AB005A0A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LMWH Dose/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananlap.LMWH-Dose";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62BEB4E12019A3AB005A0A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LMWH Dose/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananlap.LMWH-Dose";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62BEB4E32019A3AB005A0A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LMWH DoseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananlap.LMWH-DoseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMWH Dose.app/LMWH Dose";
+			};
+			name = Debug;
+		};
+		62BEB4E42019A3AB005A0A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LMWH DoseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananlap.LMWH-DoseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMWH Dose.app/LMWH Dose";
+			};
+			name = Release;
+		};
+		62BEB4E62019A3AB005A0A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LMWH DoseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananlap.LMWH-DoseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LMWH Dose";
+			};
+			name = Debug;
+		};
+		62BEB4E72019A3AB005A0A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LMWH DoseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ananlap.LMWH-DoseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LMWH Dose";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62BEB4B22019A3AA005A0A4D /* Build configuration list for PBXProject "LMWH Dose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BEB4DD2019A3AB005A0A4D /* Debug */,
+				62BEB4DE2019A3AB005A0A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BEB4DF2019A3AB005A0A4D /* Build configuration list for PBXNativeTarget "LMWH Dose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BEB4E02019A3AB005A0A4D /* Debug */,
+				62BEB4E12019A3AB005A0A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BEB4E22019A3AB005A0A4D /* Build configuration list for PBXNativeTarget "LMWH DoseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BEB4E32019A3AB005A0A4D /* Debug */,
+				62BEB4E42019A3AB005A0A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BEB4E52019A3AB005A0A4D /* Build configuration list for PBXNativeTarget "LMWH DoseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62BEB4E62019A3AB005A0A4D /* Debug */,
+				62BEB4E72019A3AB005A0A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62BEB4AF2019A3AA005A0A4D /* Project object */;
+}
