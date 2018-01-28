@@ -8,20 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class TinzaparinVC: UIViewController, UITextFieldDelegate {
     
     var kiloW = 0
     var mlWeight = 0.00
+    var mlForPatient = 0.00
     
     @IBOutlet weak var kiligramTxt: UITextField!
     @IBOutlet weak var okBtn: UIButton!
     @IBOutlet weak var unitDose: UILabel!
     @IBOutlet weak var mlDose: UILabel!
     
+    @IBAction func backBtnPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     @IBAction func resetBtnPress(_ sender: Any) {
         resetDose()
     }
+    
     @IBAction func okBtnPress(_ sender: UIButton) {
+        
+        doseCalculation()
+        
+    }
+    
+    func doseCalculation() {
         
         if kiligramTxt.text == "" {
             resetDose()
@@ -30,22 +42,31 @@ class ViewController: UIViewController, UITextFieldDelegate {
             kiloW = kiloW * 175
             unitDose.text = "\(kiloW)"
             mlWeight = Double(kiloW) / 20000
+            mlForPatient = mlWeight
             
-            if mlWeight <= 0.3 {
-                mlWeight = 0.3
-            } else if mlWeight <= 0.35 {
-                mlWeight = 0.35
-            } else if mlWeight <= 0.4 {
-                mlWeight = 0.4
-            } else if mlWeight <= 0.45 {
-                mlWeight = 0.45
-            } else if mlWeight <= 0.5 {
-                mlWeight = 0.5
+            if mlWeight <= 0.315 {
+                mlForPatient = 0.3
+            } else if mlWeight <= 0.3675 {
+                mlForPatient = 0.35
+            } else if mlWeight <= 0.42 {
+                mlForPatient = 0.4
+            } else if mlWeight <= 0.46375 {
+                mlForPatient = 0.45
+            } else if mlWeight <= 0.51625 {
+                mlForPatient = 0.5
+            } else if mlWeight <= 0.56875 {
+                mlForPatient = 0.55
+            } else if mlWeight <= 0.6125 {
+                mlForPatient = 0.6
+            } else if mlWeight <= 0.665 {
+                mlForPatient = 0.65
+            } else if mlWeight <= 0.7175 {
+                mlForPatient = 0.7
+            } else if mlWeight > 0.7175 {
+                mlForPatient = mlWeight
             }
-            mlDose.text = "\(mlWeight)"
-            
+            mlDose.text = "\(mlForPatient)"
         }
-        
     }
     
     func resetDose() {
