@@ -29,6 +29,7 @@ class TinzaparinVC: UIViewController, UITextFieldDelegate {
     
     @IBAction func okBtnPress(_ sender: UIButton) {
         
+        self.view.endEditing(true)
         doseCalculation()
         
     }
@@ -82,5 +83,34 @@ class TinzaparinVC: UIViewController, UITextFieldDelegate {
         
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    // press return to remove keyboard
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        kiligramTxt.resignFirstResponder()
+        return true
+    }
+    
+    // remove the keyboard when touch outside the keyboard
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    
+    // if want to allow to rotate //
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//        appDelegate.enableAllOrientation = true
+//    }
+//
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//
+//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//        appDelegate.enableAllOrientation = false
+//
+//        let value = UIInterfaceOrientation.portrait.rawValue
+//        UIDevice.current.setValue(value, forKey: "orientation")
+//    }
     
 }
